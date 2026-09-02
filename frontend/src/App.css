@@ -4690,3 +4690,132 @@ button.run-button {
     grid-template-columns: 1fr;
   }
 }
+/* =========================================
+   FINAL UI POLISH — STRATEGY LAB
+   ========================================= */
+
+.strategy-panel {
+  overflow: hidden;
+}
+
+.strategy-panel .panel-header {
+  align-items: center;
+}
+
+.strategy-panel .panel-header > div:first-child {
+  min-width: 0;
+}
+
+.strategy-panel .strategy-description {
+  max-width: 720px;
+}
+
+.strategy-panel .strategy-options {
+  margin-top: 18px;
+}
+
+.strategy-panel .strategy-options button {
+  min-height: 72px;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.strategy-panel .strategy-options button:hover {
+  transform: translateY(-2px);
+}
+
+.strategy-panel .strategy-results {
+  margin-top: 26px;
+}
+
+.strategy-panel .strategy-results > * {
+  min-width: 0;
+}
+
+.strategy-panel .strategy-metric strong {
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 850px) {
+  .strategy-panel .strategy-options {
+    grid-template-columns: 1fr;
+  }
+}
+/* =========================================
+   FINAL UI POLISH — NAVIGATION
+   ========================================= */
+
+.main-nav .nav-links {
+  gap: 26px !important;
+  align-items: center !important;
+}
+
+.main-nav .nav-links a {
+  position: relative;
+  padding: 6px 0 !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  transition:
+    color 0.18s ease,
+    transform 0.18s ease !important;
+}
+
+.main-nav .nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
+  background: currentColor;
+  opacity: 0.9;
+}
+
+.main-nav .nav-links a:hover {
+  transform: translateY(-1px) !important;
+}
+
+.main-nav .nav-links a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Keep navigation compact on smaller screens */
+@media (max-width: 850px) {
+  .main-nav .nav-links {
+    gap: 16px !important;
+  }
+}
+/* =========================================
+   ACTIVE NAVIGATION — CURRENT SECTION
+   ========================================= */
+
+.main-nav .nav-links a[href="#overview"],
+.main-nav .nav-links a[href="#intelligence"],
+.main-nav .nav-links a[href="#audit"],
+.main-nav .nav-links a[href="#strategy"],
+.main-nav .nav-links .nav-link-button {
+  position: relative;
+}
+
+/* Active section */
+body:has(#overview:target) .main-nav .nav-links a[href="#overview"],
+body:has(#intelligence:target) .main-nav .nav-links a[href="#intelligence"],
+body:has(#strategy:target) .main-nav .nav-links a[href="#strategy"],
+body:has(#audit:target) .main-nav .nav-links a[href="#audit"],
+body:has(#incident:target) .main-nav .nav-links .nav-link-button {
+  color: var(--accent) !important;
+}
+
+body:has(#overview:target) .main-nav .nav-links a[href="#overview"]::after,
+body:has(#intelligence:target) .main-nav .nav-links a[href="#intelligence"]::after,
+body:has(#strategy:target) .main-nav .nav-links a[href="#strategy"]::after,
+body:has(#audit:target) .main-nav .nav-links a[href="#audit"]::after,
+body:has(#incident:target) .main-nav .nav-links .nav-link-button::after {
+  transform: scaleX(1);
+}
