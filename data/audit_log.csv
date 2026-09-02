@@ -1,0 +1,284 @@
+timestamp,transaction_id,amount,failure_reason,attempts,customer_type,ai_recommendation,ai_confidence,ai_source,policy_action,guardrail_result,policy_reason,final_action,outcome,amount_recovered
+2026-09-02T19:55:04.254047,TXN00001,7999.0,bank_declined,2,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.258117,TXN00005,2999.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.258117,TXN00006,14999.0,bank_timeout,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.258117,TXN00008,1999.0,bank_timeout,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.258117,TXN00012,1999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.258117,TXN00017,999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.258117,TXN00021,7999.0,bank_timeout,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.258117,TXN00026,14999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.258117,TXN00033,1499.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.259115,TXN00036,4999.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.259328,TXN00037,7999.0,bank_declined,1,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.259384,TXN00039,1499.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.259384,TXN00043,1999.0,card_expired,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.259384,TXN00046,1499.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.260400,TXN00050,1499.0,bank_declined,1,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.260400,TXN00056,799.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.260400,TXN00060,799.0,bank_timeout,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261382,TXN00064,799.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00068,799.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,799.0
+2026-09-02T19:55:04.261750,TXN00069,1999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00073,14999.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00075,7999.0,card_expired,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00079,4999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00082,799.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.261750,TXN00085,14999.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.261750,TXN00090,4999.0,card_expired,2,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.261750,TXN00094,799.0,card_expired,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00098,9999.0,card_expired,1,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,9999.0
+2026-09-02T19:55:04.262745,TXN00106,14999.0,bank_timeout,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00108,1999.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00109,4999.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00110,1499.0,bank_timeout,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00113,4999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00114,1499.0,bank_declined,1,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.262745,TXN00115,799.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00119,2999.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.262745,TXN00124,499.0,bank_declined,1,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,499.0
+2026-09-02T19:55:04.262745,TXN00130,799.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00133,1999.0,card_expired,2,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,1999.0
+2026-09-02T19:55:04.262745,TXN00136,7999.0,card_expired,1,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.262745,TXN00137,14999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00139,2999.0,network_error,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.262745,TXN00141,999.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00144,4999.0,network_error,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00145,1999.0,bank_timeout,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00148,4999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,4999.0
+2026-09-02T19:55:04.263741,TXN00150,1499.0,card_expired,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00153,7999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.263741,TXN00156,1999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00157,499.0,network_error,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00160,1499.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.263741,TXN00161,9999.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00171,14999.0,bank_timeout,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00172,14999.0,bank_timeout,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00176,9999.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.263741,TXN00181,1999.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.263741,TXN00182,2999.0,card_expired,1,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,2999.0
+2026-09-02T19:55:04.263741,TXN00185,1499.0,bank_timeout,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00186,999.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.263741,TXN00187,1999.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.264738,TXN00189,7999.0,card_expired,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.264899,TXN00191,1999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.264899,TXN00194,7999.0,bank_timeout,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.264899,TXN00196,7999.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.264899,TXN00197,7999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.265899,TXN00205,7999.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.265899,TXN00206,14999.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,14999.0
+2026-09-02T19:55:04.265899,TXN00209,799.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.265899,TXN00210,1999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.265899,TXN00211,999.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.265899,TXN00212,7999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.265899,TXN00213,2999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.265899,TXN00215,4999.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.265899,TXN00219,4999.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.265899,TXN00228,2999.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.266897,TXN00231,9999.0,bank_timeout,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.266897,TXN00232,2999.0,card_expired,1,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,2999.0
+2026-09-02T19:55:04.267892,TXN00236,1499.0,card_expired,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00244,9999.0,bank_timeout,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00245,999.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00249,9999.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00252,799.0,card_expired,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00256,499.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00257,1999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.267892,TXN00258,7999.0,card_expired,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00268,1999.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,1999.0
+2026-09-02T19:55:04.267892,TXN00277,799.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.267892,TXN00283,1499.0,bank_timeout,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1499.0
+2026-09-02T19:55:04.267892,TXN00284,799.0,network_error,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.267892,TXN00285,9999.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.267892,TXN00286,2999.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.269890,TXN00289,1499.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.270886,TXN00298,7999.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.270886,TXN00303,999.0,bank_declined,2,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.273586,TXN00307,9999.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.274575,TXN00314,499.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.274575,TXN00315,999.0,bank_declined,1,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.275886,TXN00322,1499.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00324,1999.0,card_expired,1,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.276863,TXN00340,14999.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00341,1999.0,card_expired,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00344,14999.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00345,7999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00347,499.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00351,14999.0,bank_declined,2,returning,ESCALATE,0.91,local_fallback,ESCALATE,ALLOWED,High-value transaction requires review.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00352,14999.0,bank_timeout,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.276863,TXN00353,2999.0,bank_timeout,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00363,999.0,bank_declined,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00368,9999.0,insufficient_funds,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00370,499.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,499.0
+2026-09-02T19:55:04.277858,TXN00385,14999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00389,14999.0,bank_declined,2,returning,ESCALATE,0.91,local_fallback,ESCALATE,ALLOWED,High-value transaction requires review.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00390,14999.0,bank_declined,2,returning,ESCALATE,0.91,local_fallback,ESCALATE,ALLOWED,High-value transaction requires review.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00398,999.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00403,14999.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00406,1999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00408,1499.0,card_expired,2,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.277858,TXN00409,799.0,network_error,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00417,1499.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00426,999.0,network_error,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.277858,TXN00428,9999.0,bank_declined,2,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.278903,TXN00440,499.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278903,TXN00441,1999.0,insufficient_funds,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00448,2999.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00449,2999.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.278964,TXN00452,1499.0,bank_declined,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00459,499.0,network_error,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00460,7999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00467,7999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00468,499.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.278964,TXN00469,2999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.278964,TXN00470,1999.0,card_expired,1,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.279963,TXN00471,999.0,insufficient_funds,1,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,RECOVERED,999.0
+2026-09-02T19:55:04.279963,TXN00479,1999.0,bank_timeout,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.279963,TXN00481,7999.0,network_error,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.279963,TXN00484,2999.0,card_expired,1,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.279963,TXN00490,4999.0,network_error,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.279963,TXN00492,1499.0,insufficient_funds,2,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,1499.0
+2026-09-02T19:55:04.280962,TXN00494,799.0,bank_declined,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00495,799.0,insufficient_funds,2,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,RECOVERED,799.0
+2026-09-02T19:55:04.280962,TXN00496,2999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.280962,TXN00497,1999.0,card_expired,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00501,2999.0,bank_timeout,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00503,2999.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00506,999.0,bank_timeout,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00507,4999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.280962,TXN00510,1499.0,bank_declined,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00512,499.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00515,9999.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.280962,TXN00519,9999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00524,499.0,network_error,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,499.0
+2026-09-02T19:55:04.280962,TXN00525,14999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.280962,TXN00528,9999.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.281957,TXN00532,799.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,799.0
+2026-09-02T19:55:04.281957,TXN00533,799.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.281957,TXN00537,999.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.281957,TXN00539,14999.0,network_error,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.281957,TXN00540,499.0,bank_declined,2,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.281957,TXN00541,1999.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.281957,TXN00543,2999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.281957,TXN00545,1999.0,bank_timeout,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.281957,TXN00548,7999.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.281957,TXN00554,499.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.281957,TXN00558,4999.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.282955,TXN00561,1499.0,insufficient_funds,2,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.282955,TXN00563,14999.0,bank_declined,2,loyal,ESCALATE,0.91,local_fallback,ESCALATE,ALLOWED,High-value transaction requires review.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.282955,TXN00566,7999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.282955,TXN00573,499.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.282955,TXN00579,1499.0,bank_declined,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.282955,TXN00580,799.0,bank_declined,2,returning,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.282955,TXN00584,9999.0,card_expired,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284007,TXN00585,4999.0,bank_timeout,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,4999.0
+2026-09-02T19:55:04.284007,TXN00586,9999.0,insufficient_funds,2,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.284007,TXN00594,999.0,bank_timeout,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.284007,TXN00595,499.0,card_expired,2,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.284950,TXN00601,1999.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.284950,TXN00603,499.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00611,9999.0,network_error,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.284950,TXN00612,14999.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00613,4999.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00619,2999.0,insufficient_funds,1,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.284950,TXN00621,1999.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.284950,TXN00625,499.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00627,7999.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.284950,TXN00628,499.0,bank_declined,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00630,4999.0,card_expired,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00634,799.0,network_error,2,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,799.0
+2026-09-02T19:55:04.284950,TXN00639,799.0,card_expired,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.284950,TXN00643,9999.0,network_error,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.284950,TXN00645,2999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.284950,TXN00646,7999.0,bank_declined,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00647,1499.0,bank_timeout,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00655,499.0,insufficient_funds,2,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.285947,TXN00658,9999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00659,2999.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.285947,TXN00660,2999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00661,499.0,insufficient_funds,2,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.285947,TXN00662,999.0,network_error,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00663,999.0,bank_declined,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00666,1499.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,1499.0
+2026-09-02T19:55:04.285947,TXN00667,499.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,499.0
+2026-09-02T19:55:04.285947,TXN00668,799.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00670,1999.0,bank_timeout,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00674,4999.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.285947,TXN00675,9999.0,card_expired,2,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.285947,TXN00679,1999.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00685,14999.0,bank_declined,2,loyal,ESCALATE,0.91,local_fallback,ESCALATE,ALLOWED,High-value transaction requires review.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.285947,TXN00691,14999.0,bank_timeout,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00693,799.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00695,1999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00697,4999.0,bank_timeout,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00701,499.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00702,1999.0,bank_timeout,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.286945,TXN00705,9999.0,insufficient_funds,1,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00706,799.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00709,4999.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00710,4999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00713,14999.0,card_expired,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00714,1999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,1999.0
+2026-09-02T19:55:04.286945,TXN00722,9999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00724,799.0,card_expired,1,returning,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.286945,TXN00734,999.0,card_expired,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00738,7999.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.286945,TXN00739,999.0,network_error,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.286945,TXN00741,1499.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1499.0
+2026-09-02T19:55:04.287944,TXN00745,1499.0,bank_timeout,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1499.0
+2026-09-02T19:55:04.287944,TXN00748,7999.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.287944,TXN00750,9999.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,9999.0
+2026-09-02T19:55:04.287944,TXN00754,9999.0,bank_declined,1,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.287944,TXN00755,4999.0,bank_declined,1,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.287944,TXN00759,14999.0,bank_timeout,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.287944,TXN00761,2999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.287944,TXN00764,9999.0,network_error,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.287944,TXN00777,999.0,bank_declined,2,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.289941,TXN00779,999.0,network_error,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,999.0
+2026-09-02T19:55:04.289941,TXN00783,999.0,bank_timeout,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.289941,TXN00785,1499.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,1499.0
+2026-09-02T19:55:04.289941,TXN00791,799.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,799.0
+2026-09-02T19:55:04.290936,TXN00809,1999.0,card_expired,2,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.290936,TXN00810,2999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.290936,TXN00817,1999.0,network_error,1,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.290936,TXN00818,9999.0,network_error,2,new,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,9999.0
+2026-09-02T19:55:04.290936,TXN00819,9999.0,bank_declined,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.290936,TXN00828,799.0,bank_declined,1,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.290936,TXN00836,1499.0,insufficient_funds,2,loyal,REMINDER,0.88,local_fallback,REMINDER,ALLOWED,Loyal customer may retry after funds are available.,REMINDER,RECOVERED,1499.0
+2026-09-02T19:55:04.290936,TXN00843,1499.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.290936,TXN00846,499.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.290936,TXN00847,999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.290936,TXN00849,4999.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.291932,TXN00851,799.0,card_expired,1,new,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.291932,TXN00856,2999.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.291932,TXN00859,2999.0,insufficient_funds,1,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.291932,TXN00866,14999.0,network_error,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,14999.0
+2026-09-02T19:55:04.291932,TXN00868,7999.0,bank_declined,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.291932,TXN00869,999.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.291932,TXN00870,4999.0,bank_timeout,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,4999.0
+2026-09-02T19:55:04.292930,TXN00877,4999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.292930,TXN00881,499.0,insufficient_funds,4,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.292930,TXN00886,499.0,bank_declined,1,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.292930,TXN00890,1499.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,1499.0
+2026-09-02T19:55:04.292930,TXN00891,1999.0,card_expired,4,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.292930,TXN00892,1499.0,bank_declined,2,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.293929,TXN00904,499.0,card_expired,1,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.293929,TXN00907,14999.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.294968,TXN00908,9999.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.294968,TXN00909,9999.0,card_expired,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.294968,TXN00918,999.0,insufficient_funds,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.294968,TXN00919,999.0,insufficient_funds,3,new,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.294968,TXN00920,499.0,network_error,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.296418,TXN00924,2999.0,bank_declined,1,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.296418,TXN00927,7999.0,insufficient_funds,2,returning,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,RECOVERED,7999.0
+2026-09-02T19:55:04.296418,TXN00933,499.0,card_expired,2,loyal,REMINDER,0.97,local_fallback,REMINDER,ALLOWED,Customer needs to update their payment method.,REMINDER,RECOVERED,499.0
+2026-09-02T19:55:04.296418,TXN00937,1499.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.296418,TXN00939,799.0,network_error,2,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.296418,TXN00940,2999.0,bank_declined,1,loyal,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.297417,TXN00952,2999.0,bank_timeout,1,loyal,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,RECOVERED,2999.0
+2026-09-02T19:55:04.297417,TXN00955,999.0,insufficient_funds,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.297417,TXN00959,2999.0,card_expired,3,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.297417,TXN00971,4999.0,bank_declined,2,new,RETRY,0.75,local_fallback,RETRY,ALLOWED,Payment appears suitable for another attempt.,RETRY,RECOVERED,4999.0
+2026-09-02T19:55:04.297417,TXN00973,7999.0,insufficient_funds,4,returning,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
+2026-09-02T19:55:04.297417,TXN00977,799.0,insufficient_funds,2,new,REMINDER,0.84,local_fallback,RETRY,OVERRIDDEN,Payment appears suitable for another attempt.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.297417,TXN00982,799.0,network_error,1,returning,RETRY,0.9,local_fallback,RETRY,ALLOWED,The payment failure may be temporary.,RETRY,NOT_RECOVERED,0.0
+2026-09-02T19:55:04.297417,TXN00998,499.0,bank_declined,3,loyal,ESCALATE,0.98,local_fallback,ESCALATE,ALLOWED,Maximum retry attempts reached.,ESCALATE,ESCALATED,0.0
