@@ -1,5 +1,49 @@
 # RecoverAI — Explainable Payment Recovery Decision System
 
+> An explainable payment-recovery operations console that turns failed transactions into measurable recovery decisions.
+
+![RecoverAI Overview](docs/screenshots/overview.png)
+
+## Product Overview
+
+RecoverAI is a synthetic payment-recovery decision system designed to analyze failed transactions, identify the highest-value recovery opportunities, recommend recovery actions, apply safety guardrails, simulate alternative strategies, and record decision outcomes for auditability.
+
+### What the system demonstrates
+
+- **Failure Intelligence** — identifies and ranks payment failure patterns by financial exposure and recovery potential.
+- **Explainable AI Recommendations** — surfaces the recommended recovery action and the reasoning behind it.
+- **Incident Mode** — focuses operators on the highest-value active recovery opportunity.
+- **Strategy Simulation** — compares Conservative, Balanced, and Aggressive recovery policies before changing the decision strategy.
+- **Safety Guardrails** — prevents unsafe or excessive automated recovery actions.
+- **Recovery Impact** — measures simulated recovery rate, recovered revenue, missed opportunity, and financial upside.
+- **Auditability** — records the decision flow from failure detection through final outcome.
+
+## Product Screens
+
+### Dashboard
+
+![RecoverAI Dashboard](docs/screenshots/overview.png)
+
+The main operations dashboard provides a high-level view of recovery health, revenue exposure, and the highest-priority recovery opportunity.
+
+### Failure Intelligence
+
+![Failure Intelligence](docs/screenshots/intelligence.png)
+
+Failure classes are ranked by payment volume, revenue at risk, estimated recoverability, and benchmark recovery performance.
+
+### Live Incident Mode
+
+![Incident Mode](docs/screenshots/incident.png)
+
+Incident Mode converts the analytical output into an operator-focused response view centered on the highest-value recovery opportunity.
+
+### Recovery Strategy Simulator
+
+![Strategy Simulator](docs/screenshots/strategy.png)
+
+The simulator compares recovery policies and shows the expected impact on recovery rate, recovered revenue, retries, escalations, and risk.
+
 RecoverAI is a synthetic payment-recovery operations console designed to analyze failed transactions, identify high-value recovery opportunities, recommend recovery actions, apply policy guardrails, compare recovery strategies, and measure simulated financial impact.
 
 > **Important:** The project uses synthetic evaluation data. The recovery results, thresholds, and benchmarks shown in the interface are for demonstration and are not production payment-processing rules.
