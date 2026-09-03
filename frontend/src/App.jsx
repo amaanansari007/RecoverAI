@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://recoverai-w4fz.onrender.com";
 
 function formatCurrency(value) {
   return new Intl.NumberFormat("en-IN", {
