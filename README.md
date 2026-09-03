@@ -237,26 +237,6 @@ RecoverAI/
 git clone https://github.com/amaanansari007/RecoverAI.git
 cd RecoverAI
 
-### 2. Create and activate a Python virtual environment
-
-Windows PowerShell:
-
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-
-### 3. Install backend dependencies
-
-```powershell
-pip install -r requirements.txt
-
-### 4. Configure environment variables
-
-Create a `.env` file in the project root:
-
-```env
-OPENAI_API_KEY=your_api_key_here
-
 ## Key API Capabilities
 
 The frontend currently consumes the recovery backend for capabilities including:
