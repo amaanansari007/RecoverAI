@@ -225,41 +225,37 @@ RecoverAI/
 
 ## Running Locally
 
-### 1. Start the backend
+### Prerequisites
 
-Open a terminal in the project root.
+- Python 3.12+
+- Node.js 18+
+- npm
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/amaanansari007/RecoverAI.git
+cd RecoverAI
+
+### 2. Create and activate a Python virtual environment
+
+Windows PowerShell:
 
 ```powershell
+python -m venv venv
 .\venv\Scripts\Activate.ps1
-python -m uvicorn main:app --reload
-```
 
-Backend:
-
-```text
-http://127.0.0.1:8000
-```
-
-### 2. Start the frontend
-
-Open a second terminal.
+### 3. Install backend dependencies
 
 ```powershell
-cd frontend
-npm run dev
-```
+pip install -r requirements.txt
 
-Frontend:
+### 4. Configure environment variables
 
-```text
-http://localhost:5173
-```
+Create a `.env` file in the project root:
 
-If PowerShell blocks the npm script wrapper, use:
-
-```powershell
-npm.cmd run dev
-```
+```env
+OPENAI_API_KEY=your_api_key_here
 
 ## Key API Capabilities
 
